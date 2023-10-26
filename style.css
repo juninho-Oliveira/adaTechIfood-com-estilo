@@ -241,7 +241,32 @@ footer .navegacao ul li a {
     }
     table {
         width: 414px;
+    }
+    .preco {
+        text-align: center;
+        border: 1px solid white;
+        width: 70px;
+        height: 30px;
+        background-color: #f3dfa0;
+        color: #000000;
+        font-weight: 600;
+        border-radius: 25px;
+        border: none;
       }
+      .titulo {
+        display: flex;
+        justify-content: center;
+      }
+      .texto {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+      }
+
+      table  tr {
+        border: 1px solid rgb(0, 0, 0);
+      }
+    
       .img-cardapio {
         width: 100%;
         height: auto;
