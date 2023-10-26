@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #27170e;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Estilo do Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 20px;
+    width: 100%;
+    height: 188px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #f3dfa0;
+    
+}
+
+header nav ul li a {
+    font-size: 20px;
+    color: #000000;
+    background-color: #f3dfa0;
+}
+
+/*Estilo do main */
+
+main h1 {
+    margin-left: 20px;
+    text-decoration: underline;
+    font-size: 28px;
+    color: #f3dfa0;
+}
+
+main p {
+    margin-left: 20px;
+    color: white;
+}
+
+.tabelas {
+    margin-left: 20px;
+    width: 690px;
+    color: white;
+}
+
+
+table img {
+    width: 200px;
+    height: 176px;
+}
+
+
+
+
+/*formulario*/
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    border: 2px solid #e9665d;
+    width: 432px;
+    height: 500px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input {
+    width: 250px;
+    height: 30px;
+}
+
+
+#Cadastrar {
+    background-color: #e9665d;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 24px;
+    border: 2px solid #e9665d;
+    color: #e9665d;
+}
+
+/*estilo do footer*/
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 90px;
+    background-color: #f3dfa0;
+}
+
+.navegacao  {
+    display: flex;
+    align-items: center;
+    margin-left: 23px;
+    width: 100%;
+    background-color: #f3dfa0;
+}
+
+footer .navegacao .footer-menu, li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f3dfa0;
+    
+}
+
+footer .navegacao ul li a {
+    font-size: 20px;
+    color: #000000;
+    background-color: #f3dfa0;
+}
+
+.termos {
+    margin-right: 23px;
+    display: flex;
+    justify-content: end;
+}

@@ -4,16 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardápio Digital</title>
+    <link rel="stylesheet" href="style.css">
     <meta name="description"
         content="Bem-vindo ao nosso cardápio digital. Aqui você encontrará nossa seleção de produtos deliciosos.">
-
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+        <title>Cardápio Digital</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="menu-nav">
+            <ul class="">
                 <li><a href="#">Início</a></li>
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#cadastro">Cadastro</a></li>
@@ -25,18 +30,18 @@
         <h1>Cardápio Digital</h1>
         <p>Bem-vindo ao nosso cardápio digital. Aqui você encontrará nossa seleção de produtos deliciosos.</p>
 
-        <section id="menu">
+        <section id="menu" class="tabelas">
 
 
-            <table border="1">
-                <tr>
+            <table>
+                <tr >
                     <td rowspan="2"><img class="img-cardapio" src="./imagens/camarão.jpeg"
                             alt="imagem de camarão assado no alho e óleo"></td>
                     <td class="titulo">CAMARÃO</td>
                     <td rowspan="2">R$59,90</td>
                 </tr>
                 <tr>
-                    <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</td>
+                    <td class="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</td>
                 </tr>
                 <tr>
                     <td rowspan="2"><img class="img-cardapio" src="imagens/churrasco.jpeg"
@@ -67,15 +72,11 @@
                 </tr>
             </table>
 
-            <section id="categoria-1">
-
-            </section>
-
 
         </section>
 
 
-        <section id="cadastro">
+        <section id="cadastro" class="formulario ">
             <h2>Formulário de Cadastro</h2>
             <form>
                 <label for="nome">Nome:</label>
@@ -87,16 +88,16 @@
                 <label for="telefone">Telefone:</label>
                 <input type="tel" id="telefone" name="telefone" required> </br></br>
 
-                <button type="submit">Cadastrar</button>
+                <button type="submit" id="Cadastrar">Cadastrar</button>
             </form>
         </section>
     </main>
 
     <footer>
-        <nav>
-            <ul>
+        <nav class="navegacao">
+            <ul class="footer-menu">
                 <li><a href="#">Política de Privacidade</a></li>
-                <li><a href="#">Termos de Serviço</a></li>
+                <li class="termos"><a href="#" >Termos de Serviço</a></li>
             </ul>
         </nav>
     </footer>
