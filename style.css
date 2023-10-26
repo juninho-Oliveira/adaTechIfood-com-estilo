@@ -13,7 +13,7 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     margin-left: 20px;
     width: 100%;
     height: 188px;
@@ -68,19 +68,32 @@ table img {
     height: 176px;
 }
 
+/*estilo do div.container*/
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 
 
 /*formulario*/
 
 .formulario {
+    margin-right: 80px;
+    color: #f3dfa0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 10px;
     border-radius: 5px;
-    border: 2px solid #e9665d;
+    border: 2px solid #f3dfa0;
     width: 432px;
     height: 500px;
 }
@@ -96,22 +109,22 @@ form {
 form input {
     width: 250px;
     height: 30px;
+    background-color: #f3dfa0;
 }
 
 
 #Cadastrar {
-    background-color: #e9665d;
-    color: white;
+    background-color: #f3dfa0;
+    color: black;
 }
 
 button {
     cursor: pointer;
-    width: 200px;
+    width: 150px;
     height: 50px;
     border-radius: 50px;
     font-size: 24px;
-    border: 2px solid #e9665d;
-    color: #e9665d;
+    border: 2px solid #f3dfa0;
 }
 
 /*estilo do footer*/
@@ -153,4 +166,108 @@ footer .navegacao ul li a {
     margin-right: 23px;
     display: flex;
     justify-content: end;
+}
+
+
+@media (max-width:1300px)  {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background-color: #27170e;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .grid {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+
+    main h1 {
+        margin-left: 0px;
+    }
+    main p {
+        margin-left: 0px;
+        color: white;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        margin-left: 0px;     
+    }
+    
+    header nav ul {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    header nav ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 50px;
+        background-color: #f3dfa0;
+        
+    }
+    
+    .container {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        margin-left:0px ;
+        margin-right: 0px;
+        padding: 5px;
+    }
+    .tabelas {
+        margin-left: 0px;
+    }
+    table {
+        width: 414px;
+        
+
+      }
+      .img-cardapio {
+        width: 100%;
+        height: auto;
+      }
+    
+      .tabelas {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .formulario {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+      footer {
+        width: 100%;
+      }
+      
+
 }
