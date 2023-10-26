@@ -13,6 +13,6 @@
 <ul>
     <li>Site inteiro feito com Bootstrap</li>
 </ul>
-Acesse: <a href="https://ada-tech-ifood-9kv5.vercel.app/">Link</a>
+Acesse: <a href="https://ada-tech-ifood-com-estilo.vercel.app/">Link</a>
 
 -Dar continuidade ao projeto anterior, principais pontos. responsividade, SEO e estilização realizar projeto individual e subir o repositório no LMS
