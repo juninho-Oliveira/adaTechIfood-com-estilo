@@ -241,8 +241,6 @@ footer .navegacao ul li a {
     }
     table {
         width: 414px;
-        
-
       }
       .img-cardapio {
         width: 100%;
@@ -255,19 +253,38 @@ footer .navegacao ul li a {
         justify-content: center;
         width: 100%;
       }
-
+      form {
+        gap: 0px;
+      }
       .formulario {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 350px;
+        gap: 5px;
+        width: 400px;
         margin-left: 0px;
         margin-right: 0px;
       }
 
       footer {
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
+
+      footer .navegacao ul li a {
+        font-size: 15px;
+        color: #000000;
+        background-color: #f3dfa0;
+    }
+
+    .navegacao  {
+        margin-left: 0px;
+        width: 80%;
+        background-color: #f3dfa0;
+    }
+
       
 
 }
